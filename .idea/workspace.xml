@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c6154d2-6761-495d-87f1-1f150da6402a" name="Changes" comment="implement Huffman compress and uncompress methods">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="aa31b2b2816ca6d5c730d58e10a2793314f9e94a" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NpidRCyZ9HO51AzOTdvl2Mu2P4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "/Users/granitkrasniqi/personal/huffman/src/test/kotlin/dev/granitkrasniqi/huffman",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.granitkrasniqi.huffman" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.granitkrasniqi.huffman" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.huffman in huffman">
+    <configuration name="CharFrequencyTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="huffman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.granitkrasniqi.huffman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.granitkrasniqi.huffman" />
+      <option name="MAIN_CLASS_NAME" value="dev.granitkrasniqi.huffman.CharFrequencyTableTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffmanIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="huffman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.granitkrasniqi.huffman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.granitkrasniqi.huffman" />
+      <option name="MAIN_CLASS_NAME" value="dev.granitkrasniqi.huffman.HuffmanIntTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffmanIntTest.should be able to uncompress a text file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="huffman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.granitkrasniqi.huffman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.granitkrasniqi.huffman" />
+      <option name="MAIN_CLASS_NAME" value="dev.granitkrasniqi.huffman.HuffmanIntTest" />
+      <option name="METHOD_NAME" value="should be able to uncompress a text file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextFileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="huffman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.granitkrasniqi.huffman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.granitkrasniqi.huffman" />
+      <option name="MAIN_CLASS_NAME" value="dev.granitkrasniqi.huffman.TextFileReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="huffman in huffman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="huffman" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/kotlin/dev/granitkrasniqi/huffman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.huffman in huffman" />
+        <item itemvalue="JUnit.TextFileReaderTest" />
+        <item itemvalue="JUnit.CharFrequencyTableTest" />
+        <item itemvalue="JUnit.HuffmanIntTest" />
+        <item itemvalue="JUnit.HuffmanIntTest.should be able to uncompress a text file" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c6154d2-6761-495d-87f1-1f150da6402a" name="Changes" comment="" />
+      <created>1680367513968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680367513968</updated>
+      <workItem from="1680367515101" duration="667000" />
+      <workItem from="1680548520309" duration="602000" />
+      <workItem from="1680814487847" duration="22514000" />
+      <workItem from="1681504661821" duration="3006000" />
+    </task>
+    <task id="LOCAL-00001" summary="add .gitignore">
+      <created>1681505467786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681505467786</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add BinaryIn and BinaryOut for processing binary input and output">
+      <created>1681505497596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681505497596</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add CharFrequencyTable for calculating frequency of chars in a text">
+      <created>1681507019287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681507019287</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add BinaryIn and BinaryOut for processing binary input and output">
+      <created>1681507295528</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681507295528</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add BinaryIn and BinaryOut for processing binary input and output">
+      <created>1681507459238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681507459238</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add TextFileReader">
+      <created>1681507608761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681507608761</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implement Huffman compress and uncompress methods">
+      <created>1681507669096</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681507669096</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .gitignore" />
+    <MESSAGE value="add CharFrequencyTable for calculating frequency of chars in a text" />
+    <MESSAGE value="add BinaryIn and BinaryOut for processing binary input and output" />
+    <MESSAGE value="add TextFileReader" />
+    <MESSAGE value="implement Huffman compress and uncompress methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement Huffman compress and uncompress methods" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="huffmanEncodedInput.toByteArray()" language="kotlin" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
