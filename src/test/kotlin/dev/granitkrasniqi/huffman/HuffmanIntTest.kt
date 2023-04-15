@@ -8,7 +8,7 @@ import kotlin.test.assertEquals
 class HuffmanIntTest {
 
     @Test
-    fun `should be able to compress and uncompress a text file`() {
+    fun `should be able to compress a text file`() {
         // Arrange
         val fileToBeCompressed = File("src/test/resources/test.txt")
         val compressedFile = File("src/test/resources/compressed_file.txt")
